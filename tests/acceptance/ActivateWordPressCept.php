@@ -15,4 +15,4 @@ $I->fillField("weblog_title", "Custom Ray Guns Remote");
 $I->fillField("user_name", "admin");
 $I->fillField("pass1-text", "password");
 $I->fillField("admin_email", "admin@thissite.com");
-$I->click('Install WordPress');
+$I->click('Submit');
