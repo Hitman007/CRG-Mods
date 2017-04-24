@@ -3,7 +3,7 @@
 $I = new AcceptanceTester($scenario);
 $I->wantTo('Install WordPress');
 $I->amOnPage('/wp-admin/setup-config.php');
-$I->click("Let's Go!");
+$I->click(".button");
 $I->fillField("dbname", "wordpress");
 $I->fillField("uname", "wordpressuser");
 $I->fillField("pwd", "password");
